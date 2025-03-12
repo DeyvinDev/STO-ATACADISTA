@@ -202,7 +202,7 @@ export function calcularAreaCirculo(raio) {
   
 //2. No segundo script, importe a função e calcule a área de um círculo com raio 5.
 // Importando a função do arquivo 'calculos.js'
-import { calcularAreaCirculo } from '\GAROTO DE PROGRAMA\exercicio02\02.js';
+import { calcularAreaCirculo } from '\GAROTO DE PROGRAMA\exercicio02';
 
 let raio = 5;
 
