@@ -1,0 +1,64 @@
+import React from 'react'
+import { StatusBar } from 'expo-status-bar';
+import { ScrollView, StyleSheet, View } from 'react-native';
+import { PaperProvider, Card, Title, Paragraph, Text, Divider, Button } from 'react-native-paper';
+
+
+
+export default function App() {
+  return (
+    <PaperProvider>
+      <ScrollView>
+    <View style={styles.container}>
+      <StatusBar style="auto" />
+      <Button mode='contained'></Button>
+      <Button mode='contained-tonal'></Button>
+      <Button mode='elevated'></Button>
+      <Button mode='outlined'></Button>
+      <Button mode='text'></Button>
+      <Text variant='bodyLarge'>Texto</Text>
+      <Divider style={{width: '100%'}}/>
+      <Text variant='displayLarge'>Texto</Text>
+      <Divider style={{width: '100%'}}/>
+      <Text variant='headlineLarge'>Texto</Text>
+      <Divider style={{width: '100%'}}/>
+      <Text variant='labelLarge'>Texto</Text>
+      <Divider style={{width: '100%'}}/>
+      <Text variant='titleLarge'>Texto</Text>
+      <Divider style={{width: '100%'}}/>
+      
+      <Card style={{ margin: 15}}>
+        <Card.Content>
+          <Title>Ale da o cu</Title>
+          <Paragraph>Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,</Paragraph>
+        </Card.Content>
+        <Card.Actions>
+          <Text>ale gay</Text>
+        </Card.Actions>
+      </Card>
+
+      <Card>
+        <Card.Content>
+          <Title>Ale da o cu</Title>
+          <Paragraph>Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,Ale da o cu,</Paragraph>
+        </Card.Content>
+      </Card>
+
+
+
+
+
+    </View>
+    </ScrollView>
+    </PaperProvider>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
